@@ -30,12 +30,6 @@ class Article {
 
     }
   }
-
-  shrinkArticle() {
-
-    TweenMax.to(this.domElement, 1, {className: '+=article-open'});
-
-  }
 }
 
 /* START HERE: 
